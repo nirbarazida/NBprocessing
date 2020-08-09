@@ -34,7 +34,7 @@ def _count_and_distribution_plot_checker(func):
     @wraps(func)
     def wrapper_checker(database, column_list=None):
         _CheckInput._check_database_input(database)
-        _CheckInput._check_categories_to_drop(column_list)
+        _CheckInput._check_features_to_plot(column_list)
         for column in column_list:
             _CheckInput._check_column_in_database(column, database)
         func(database, column_list)

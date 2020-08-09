@@ -242,10 +242,11 @@ def categories_not_in_common(train, test, column_name):
     -------
     Will be added in version 0.2
     """
+
     in_test = set(test[column_name]) - set(train[column_name])
     in_train = set(train[column_name]) - set(test[column_name])
-    print(f"values existing only in the first data set {in_test}")
-    print(f"values existing only in the second data set {in_train}")
+    print(f"values existing only in the first data-set {in_test}")
+    print(f"values existing only in the second data-set {in_train}")
 
 @_category_ratio_checker
 def category_ratio(database, columns_to_check=None, num_categories=5):

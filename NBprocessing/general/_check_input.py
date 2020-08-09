@@ -48,3 +48,8 @@ class _CheckInput(object):
     def _check_num_categories(num_categories):
         if type(num_categories) != int or num_categories < 0:
             raise ValueError("num_categories input is not valid - Please enter a int higher than 1")
+
+    @staticmethod
+    def _check_features_to_plot(features_to_plot): # features
+        if type(features_to_plot) != list and type(features_to_plot) != tuple and features_to_plot is not None:
+            raise ValueError("categories_to_drop must be a list or a tuple - please enter as list / tuple")
