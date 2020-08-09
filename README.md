@@ -26,6 +26,7 @@ Run from your command line prompt:
  It will also install all the dependent packages such pandas, numpy, seaborn etc.
 
 ## General
+
 ###package libraries
 - Categorical - contains functions that are relevant to categorical features:
 
@@ -65,7 +66,7 @@ Run from your command line prompt:
 
 all Usage of the package functions are reviewed very specifically in this [jupyter Notebook() 
 
-### Usage Example
+##Usage Example
 
 - Categorical:
     - Fill missing values in a categorical feature by the ratio of the categories:\
@@ -75,14 +76,14 @@ all Usage of the package functions are reviewed very specifically in this [jupyt
         Because the ratio sum is not a perfect one - the extra missing values will be filled with the most common category in the column.
         
        - First, we would like to sum all missing values in every categorical feature.\
-            **pic categorical 1** 
+            ![pic categorical 1](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/categorical_1.png) 
        
        - Second, Lets explore the ratio of evey category in the feature 'fuel' with and without missing values\
-            **pic categorical 1** 
+            ![pic categorical 1](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/categorical_2.png) 
        
        - Last, we would like to fill the missing values and to keep the ratio of the features without them.\
        To do so we will use the `fill_na_by_ratio` function.\
-             **pic categorical 3**
+             ![pic categorical 3](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/categorical_3.png)
              
        As we can see from the above, all the missing values were filled and we manged to keep the ratio of the categories.
       
@@ -97,13 +98,13 @@ all Usage of the package functions are reviewed very specifically in this [jupyt
         was already splitted to train and test sets)
 
        - First, we will check the ratio of appearance per etch category in the feature.\
-            **pic categorical 4**
+            ![pic categorical 4](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/categorical_4.png)
             
        - Second, we would like to combine all the low appearance categories under one category and save the redacted features to a list.\
-            **pic categorical 5**
+            ![pic categorical 5](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/categorical_5.png)
             
        - Last, we will make the same changes on our test data-set using the list that we've created:\
-            **pic categorical 6**
+            ![pic categorical 6](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/categorical_6.png)
                 
 - Continuous:
     - Remove outliers by top and bottom percentage of data boundaries 
@@ -128,7 +129,7 @@ all Usage of the package functions are reviewed very specifically in this [jupyt
     plot the new database shape.
     
     Let's see a live example:
-        **Continuous 1**
+        ![Continuous 1](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/continuous_1.png)
         
 - Plot:
     - Plot heat map of missing values
@@ -137,7 +138,7 @@ all Usage of the package functions are reviewed very specifically in this [jupyt
         Plots a heat-map with all columns filled with green color.\
         The missing values indexes will be shown by a line in a gray color in their position.
         
-        **plot_1**
+        ![plot_1](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/plot_1.png)
         
 # Contact
 - linkedin - [NirBarazida()
