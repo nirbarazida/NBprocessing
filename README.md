@@ -61,13 +61,13 @@ Run from your command line prompt:
 
 ## Usage
 
-all Usage of the package functions are reviewed very specifically in this [jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/README_Notebook.ipynb) 
+All Usage of the package functions are reviewed very specifically in this [jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/README_Notebook.ipynb) 
 
 
 ## Usage Example
 
 - Categorical:
-    - Fill missing values in a categorical feature by the ratio of the categories:\
+    - **Fill missing values in a categorical feature by the ratio of the categories**:\
     `fill_na_by_ratio(database, column_name)`
     
         Fill all missing values in the given column by the ratio of the categories in the column.\
@@ -88,7 +88,7 @@ all Usage of the package functions are reviewed very specifically in this [jupyt
              
        As we can see from the above, all the missing values were filled and we manged to keep the ratio of the categories.
       
-    - Combine low appearance categories under one category\
+    - **Combine low appearance categories under one category**:\
      `combine_categories(database, column_name, category_name="other", threshold=0.01)`
      
         Receives a threshold that is the minimum relative part of the category within the column.\
@@ -111,28 +111,28 @@ all Usage of the package functions are reviewed very specifically in this [jupyt
             ![pic categorical 6](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/categorical_6.png)
                 
 - Continuous:
-    - Remove outliers by top and bottom percentage of data boundaries 
+    - **Remove outliers by top and bottom percentage of data boundaries**: 
      `remove_outliers_by_boundaries(database, column_name, bot_qu, top_qu)`
     
-    The theory behind it:\
-        _the number of outliers  will follow a binomial distribution with parameter p, which can generally be
-        well-approximated by the Poisson distribution with λ = pn. Thus if one takes a normal distribution with
-        cutoff 3 standard deviations from the mean, p is approximately 0.3%, and thus for 1000 trials one can
-        approximate the number of samples whose deviation exceeds 3 sigmas by a Poisson distribution with λ = 3.
-        3 times of standard deviation as my main data and out of this range would be the outlier._
-        
-     ![Image of Yaktocat](https://i.stack.imgur.com/AxYue.png)
-
-    Thus, in a normal distribution the top and bottom boundaries should contain 99.7% of the data.
-    However, not all data has Normal distribution thus the user is able to change the top and bottom boundaries
-
-    Before removing the indexes will print a message to the user with the number of indexes that
-    will be remove and the percent of the database that will be lost.
-    the user will input 'y'(yes) to pressed and 'n'(no) to cancel the action.
-    If the user choose 'yes' the method will continue to drop the indexes and will
-    plot the new database shape.
+        The theory behind it:\
+            _the number of outliers  will follow a binomial distribution with parameter p, which can generally be
+            well-approximated by the Poisson distribution with λ = pn. Thus if one takes a normal distribution with
+            cutoff 3 standard deviations from the mean, p is approximately 0.3%, and thus for 1000 trials one can
+            approximate the number of samples whose deviation exceeds 3 sigmas by a Poisson distribution with λ = 3.
+            3 times of standard deviation as my main data and out of this range would be the outlier._
+            
+         ![Image of Yaktocat](https://i.stack.imgur.com/AxYue.png)
     
-    Let's see a live example:
+        Thus, in a normal distribution the top and bottom boundaries should contain 99.7% of the data.
+        However, not all data has Normal distribution thus the user is able to change the top and bottom boundaries
+    
+        Before removing the indexes will print a message to the user with the number of indexes that
+        will be remove and the percent of the database that will be lost.
+        the user will input 'y'(yes) to pressed and 'n'(no) to cancel the action.
+        If the user choose 'yes' the method will continue to drop the indexes and will
+        plot the new database shape.
+        
+        Let's see a live example:
     
     ![Continuous 1](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/continuous_1.png)
         
