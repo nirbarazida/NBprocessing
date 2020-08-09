@@ -13,11 +13,10 @@ How many times have you received raw database and conduct the same action to pre
  
  If you said yes to all of the above you have reached to right place!
  
-The main purpose of the '**NBprocessing**' package is to make our Data Scientist life **easier**, or better yet - more efficient.
-The '**NBprocessing**' package stores must of the generics functions that we all use on a daily basic, such remove outliers, fill missing values etc.
+The main purpose of the '**NBprocessing**' package is to make our Data Scientist life **easier**, or better yet - more efficient.\
+The '**NBprocessing**' package stores most of the generics functions that we all use on a daily basic, such remove outliers, fill missing values etc.
 
-
-##install and usage
+## install and usage
 
 Run from your command line prompt:
  
@@ -54,17 +53,15 @@ Run from your command line prompt:
     - `count_plot(database, column_list=None)`
     - `distribution_plot(database, column_list=None)`
 
-
-### import
+ ### import
 - `from NBprocessing.categorical import NBcategorical`
 - `from NBprocessing.continuous import NBcontinuous`
 - `from NBprocessing.plot import NBplot`
 - `from NBprocessing.general import NBgeneral`
 
-
 ## Usage
 
-all Usage of the package functions are reviewed very specifically in this [jupyter Notebook() 
+all Usage of the package functions are reviewed very specifically in this [jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/README_Notebook.ipynb) 
 
 ##Usage Example
 
@@ -75,15 +72,18 @@ all Usage of the package functions are reviewed very specifically in this [jupyt
         Fill all missing values in the given column by the ratio of the categories in the column.\
         Because the ratio sum is not a perfect one - the extra missing values will be filled with the most common category in the column.
         
-       - First, we would like to sum all missing values in every categorical feature.\
+       - First, we would like to sum all missing values in every categorical feature.
+       
             ![pic categorical 1](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/categorical_1.png) 
        
-       - Second, Lets explore the ratio of evey category in the feature 'fuel' with and without missing values\
+       - Second, Lets explore the ratio of evey category in the feature 'fuel' with and without missing values
+       
             ![pic categorical 1](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/categorical_2.png) 
        
        - Last, we would like to fill the missing values and to keep the ratio of the features without them.\
-       To do so we will use the `fill_na_by_ratio` function.\
-             ![pic categorical 3](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/categorical_3.png)
+       To do so we will use the `fill_na_by_ratio` function.
+       
+            ![pic categorical 3](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/categorical_3.png)
              
        As we can see from the above, all the missing values were filled and we manged to keep the ratio of the categories.
       
@@ -97,13 +97,16 @@ all Usage of the package functions are reviewed very specifically in this [jupyt
         With this list the user will be able to make the same action on the test set (assuming that the data
         was already splitted to train and test sets)
 
-       - First, we will check the ratio of appearance per etch category in the feature.\
+       - First, we will check the ratio of appearance per etch category in the feature.
+       
             ![pic categorical 4](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/categorical_4.png)
             
-       - Second, we would like to combine all the low appearance categories under one category and save the redacted features to a list.\
+       - Second, we would like to combine all the low appearance categories under one category and save the redacted features to a list.
+       
             ![pic categorical 5](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/categorical_5.png)
             
-       - Last, we will make the same changes on our test data-set using the list that we've created:\
+       - Last, we will make the same changes on our test data-set using the list that we've created:
+       
             ![pic categorical 6](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/categorical_6.png)
                 
 - Continuous:
@@ -129,7 +132,8 @@ all Usage of the package functions are reviewed very specifically in this [jupyt
     plot the new database shape.
     
     Let's see a live example:
-        ![Continuous 1](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/continuous_1.png)
+    
+    ![Continuous 1](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/continuous_1.png)
         
 - Plot:
     - Plot heat map of missing values
@@ -141,9 +145,9 @@ all Usage of the package functions are reviewed very specifically in this [jupyt
         ![plot_1](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/plot_1.png)
         
 # Contact
-- linkedin - [NirBarazida()
+- linkedin: [NirBarazida](https://www.linkedin.com/in/nir-barazida-08b3111a4/)
 
 Please let me know if you have any questions.
 
-Good luck,
+Good luck,\
 Nir Barazida
