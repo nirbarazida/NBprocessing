@@ -26,7 +26,7 @@ Run from your command line prompt:
 
 ## General
 
-###package libraries
+### package libraries
 - Categorical - contains functions that are relevant to categorical features:
 
     - `remove_categories(database, column_name, categories_to_drop)`
@@ -64,7 +64,7 @@ Run from your command line prompt:
 all Usage of the package functions are reviewed very specifically in this [jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/README_Notebook.ipynb) 
 
 
-##Usage Example
+## Usage Example
 
 - Categorical:
     - Fill missing values in a categorical feature by the ratio of the categories:\
