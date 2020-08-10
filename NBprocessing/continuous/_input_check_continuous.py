@@ -10,7 +10,7 @@ Good luck
 
 
 from functools import wraps
-from ._check_input import _CheckInput
+from NBprocessing.src._check_input import _CheckInput
 
 
 def _fill_na_timedate_checker(func):

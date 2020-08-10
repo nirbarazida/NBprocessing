@@ -10,7 +10,7 @@ Good luck
 """
 
 from functools import wraps
-from ._check_input import _CheckInput
+from NBprocessing.src._check_input import _CheckInput
 
 def _remove_categories_checker(func):
     """
@@ -23,7 +23,7 @@ def _remove_categories_checker(func):
         _CheckInput._check_database_input(database)
         _CheckInput._check_column_name(column_name)
         _CheckInput._check_column_in_database(column_name,database)
-        _CheckInput._check_categories_to_drop(categories_to_drop)
+        _CheckInput._check_list_tuple_None(categories_to_drop)
         func(database, column_name, categories_to_drop)
 
     return wrapper_checker
@@ -88,7 +88,7 @@ def _category_ratio_checker(func):
     @wraps(func)
     def wrapper_checker(database, columns_to_check=None, num_categories=5):
         _CheckInput._check_database_input(database)
-        # CheckInput.check_categories_to_drop(columns_to_check) # todo: replace to a new check - list/tuple/None
+        _CheckInput._check_list_tuple_None(columns_to_check) # todo: replace to a new check - list/tuple/None
         _CheckInput._check_num_categories(num_categories)
         return func(database, columns_to_check, num_categories)
 

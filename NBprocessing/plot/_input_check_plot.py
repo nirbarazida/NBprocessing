@@ -9,7 +9,7 @@ Good luck
 """
 
 from functools import wraps
-from ._check_input import _CheckInput
+from NBprocessing.src._check_input import _CheckInput
 
 
 def _plot_missing_value_and_corr_heatmap_checker(func):
@@ -34,7 +34,7 @@ def _count_and_distribution_plot_checker(func):
     @wraps(func)
     def wrapper_checker(database, column_list=None):
         _CheckInput._check_database_input(database)
-        _CheckInput._check_features_to_plot(column_list)
+        _CheckInput._check_list_tuple_None(column_list)
         for column in column_list:
             _CheckInput._check_column_in_database(column, database)
         func(database, column_list)

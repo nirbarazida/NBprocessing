@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='NBprocessing',
-    version='0.0.18832',
+    version='0.0.191466',
     author="Nir Barazida",
     author_email="nirbarazida@gmail.com",
     description="Pre-processing database using pre-written functions",

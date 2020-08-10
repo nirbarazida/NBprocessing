@@ -54,17 +54,17 @@ Run from your command line prompt:
     - `distribution_plot(database, column_list=None)`
 
  ### import
-- `from NBprocessing.categorical import NBcategorical`
-- `from NBprocessing.continuous import NBcontinuous`
-- `from NBprocessing.plot import NBplot`
-- `from NBprocessing.general import NBgeneral`
+- `from NBprocessing import NBcategorical`
+- `from NBprocessing import NBcontinuous`
+- `from NBprocessing import NBplot`
+- `from NBprocessing import NBgeneral`
 
 ## Usage
 
-All Usage of the package functions are reviewed very specifically in this [jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/README_Notebook.ipynb) 
+**All usage of the package functions are reviewed very specifically in this [jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/README_Notebook.ipynb)** 
 
 
-## Usage Example
+## Usage Examples
 
 - Categorical:
     - **Fill missing values in a categorical feature by the ratio of the categories**:\

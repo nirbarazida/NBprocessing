@@ -1,5 +1,4 @@
-from ..categorical.NBcategorical import remove_categories, fill_na_by_ratio, combine_categories
-
+from NBprocessing import NBcategorical
 import unittest
 import pandas as pd
 
@@ -35,20 +34,20 @@ class TestCategorical(unittest.TestCase):
         categories_to_drop = ['CNG', 'LPG', 'Electric']
 
         with self.assertRaises(ValueError):
-            remove_categories(['nir'], column_name, categories_to_drop)
-            remove_categories(['nir'], ['fuel'], categories_to_drop)
-            remove_categories(['nir'], column_name, ['nir'])
+            NBcategorical.remove_categories(['nir'], column_name, categories_to_drop)
+            NBcategorical.remove_categories(['nir'], ['fuel'], categories_to_drop)
+            NBcategorical.remove_categories(['nir'], column_name, ['nir'])
 
         with self.assertRaises(NameError):
-            remove_categories(self.database, 'nir', categories_to_drop)
+            NBcategorical.remove_categories(self.database, 'nir', categories_to_drop)
 
     def test_fill_na_by_ratio(self):
         print('fill_na_by_ratio\n')
 
         with self.assertRaises(NameError):
-            fill_na_by_ratio(self.database, 'nir')
+            NBcategorical.fill_na_by_ratio(self.database, 'nir')
         with self.assertRaises(ValueError):
-            fill_na_by_ratio(['nir'], 'fuel')
+            NBcategorical.fill_na_by_ratio(['nir'], 'fuel')
 
     def test_combine_categories(self):
         print('combine_categories\n')
@@ -58,15 +57,15 @@ class TestCategorical(unittest.TestCase):
         threshold = 0.01
 
         with self.assertRaises(NameError):
-            combine_categories(self.database, 'nir')
+            NBcategorical.combine_categories(self.database, 'nir')
 
         with self.assertRaises(ValueError):
-            combine_categories(['nir'], column_name)
-            combine_categories(self.database, column_name, category_name, 1.1)
-            combine_categories(self.database, column_name, category_name, -0.001)
-            combine_categories(self.database, column_name, [category_name], threshold)
+            NBcategorical.combine_categories(['nir'], column_name)
+            NBcategorical.combine_categories(self.database, column_name, category_name, 1.1)
+            NBcategorical.combine_categories(self.database, column_name, category_name, -0.001)
+            NBcategorical.combine_categories(self.database, column_name, [category_name], threshold)
 
-        combine_categories(self.database, column_name, category_name, 0.2)
+        NBcategorical.combine_categories(self.database, column_name, category_name, 0.2)
         len(self.database[column_name].value_counts())
         self.assertEqual(len(self.database[column_name].value_counts()), 3)
 
