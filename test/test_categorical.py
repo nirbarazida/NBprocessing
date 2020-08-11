@@ -22,7 +22,7 @@ class TestCategorical(unittest.TestCase):
     # this way can use the same variable and change it if necessary at one place
     def setUp(self):
         print('setUp')
-        self.database = pd.read_csv('dataset_cars.csv')
+        self.database = pd.read_pickle('./dataset_cars.pkl')
 
     def tearDown(self):
         print('tearDown\n')
