@@ -5,21 +5,6 @@ import pandas as pd
 
 class TestCategorical(unittest.TestCase):
 
-    # will REPLACE the methods (setUp tearDown) if will want to set up the test variable only once and not for etch test
-    # relevant when working with big DB / long process to acquire the self.variables
-
-    # @classmethod
-    # def setUpClass(cls):
-    #     print('setupClass\n')
-    #     self.database = pd.read_csv('listings.csv')[FEATURE_LIST + TARGET_LIST]
-    #
-    #
-    # @classmethod
-    # def tearDownClass(cls):
-    #     print('teardownClass')
-
-    # create a class variable that is now a class test variable.
-    # this way can use the same variable and change it if necessary at one place
     def setUp(self):
         print('setUp')
         self.database = pd.read_pickle('./dataset_cars.pkl')
