@@ -33,7 +33,8 @@ Run from your command line prompt:
     - `fill_na_by_ratio(database, column_name)`
     - `combine_categories(database, column_name, category_name="other", threshold=0.01)`
     - `categories_not_in_common(train, test, column_name)`
-    - `category_ratio(database, columns_to_check=None, num_categories=5)` 
+    - `category_ratio(database, columns_to_check=None, num_categories=5)`
+    - `def label_encoder_features(database, features_to_encode)` 
     
 - Continuous - contains functions that are relevant to continuous features:
 
@@ -52,6 +53,7 @@ Run from your command line prompt:
     - `plot_corr_heat_map(database)`
     - `count_plot(database, column_list=None)`
     - `distribution_plot(database, column_list=None)`
+    - `world_map_plot(database, locations_column, feature, title=None, color_bar_title=None)`
 
  ### import
 - `from NBprocessing import NBcategorical`
