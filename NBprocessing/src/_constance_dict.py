@@ -9,7 +9,8 @@ data['CHECK_INPUT'] = {
     'CHECK_TYPE_DATE_TIME': r"The column {} is not date-time type.",
     'CHECK_BOUNDARIES': "boundary input is not valid - Please enter a float in range 0-1",
     'CHECK_DICT': "filter dictionary input is not valid - Please enter a dictionary",
-    'CHECK_NUM_CATEGORIES': "num_categories input is not valid - Please enter a int higher than 1"
+    'CHECK_NUM_CATEGORIES': "num_categories input is not valid - Please enter a int higher than 1",
+    'CHECK_TITLE': "Title input is not valid"
 }
 data["CATEGORICAL"] = {
 

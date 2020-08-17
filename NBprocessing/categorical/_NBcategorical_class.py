@@ -44,13 +44,14 @@ Create by: Nir Barazida
 Good luck!
 """
 
-from NBprocessing.categorical._input_check_categorical import _remove_categories_checker, _fill_na_by_ratio_checker, \
-    _combine_categories_checker, _categories_not_in_common_checker, _category_ratio_checker
+from NBprocessing.categorical._input_check_categorical import _InputCheckCategorical
+
 from NBprocessing.categorical._general_functions_categorical import color_imbalanced
 from NBprocessing.src import constance_object
 
 import pandas as pd
 import numpy as np
+from sklearn.preprocessing import LabelEncoder
 
 
 class NBcategorical(object):
@@ -92,9 +93,14 @@ class NBcategorical(object):
             Returns a data base with categories and their ratio of appearance in the column.
             The user can input a list of columns to check or the method will return all the columns categories ratio.
             The user can choose how many *top* categories will be returned.
-            Categories with value under 5% or over 90% will be marked in red to raise a flag that the data
+            Categories with value over 90% will be marked in red to raise a flag that the data
             is imbalanced.
 
+        6. def label_encoder_features(database, features_to_encode):
+            Encode features in the giving database using LabelEncoder() from sklearn.
+            Will preform encoding on all giving features and returns a dictionary with all the different
+            encoders where the ket is the feature name and the value is the LabelEncoder instance fitted
+            to that feature. Thus, the user is able to un-encode the feature when necessary.
 
     Create by: Nir Barazida
     Good luck!
@@ -102,7 +108,7 @@ class NBcategorical(object):
     """
 
     @staticmethod
-    @_remove_categories_checker
+    @_InputCheckCategorical._remove_categories_checker
     def remove_categories(database, column_name, categories_to_drop):
         """
         General Information
@@ -157,7 +163,7 @@ class NBcategorical(object):
             print(constance_object.DATABASE_SHAPE.format(database.shape))
 
     @staticmethod
-    @_fill_na_by_ratio_checker
+    @_InputCheckCategorical._fill_na_by_ratio_checker
     def fill_na_by_ratio(database, column_name):
         """
         General Information
@@ -201,7 +207,7 @@ class NBcategorical(object):
             print(e)
 
     @staticmethod
-    @_combine_categories_checker
+    @_InputCheckCategorical._combine_categories_checker
     def combine_categories(database, column_name, category_name="other", threshold=0.01):
         """
         General Information
@@ -253,7 +259,7 @@ class NBcategorical(object):
         return values_to_combine
 
     @staticmethod
-    @_categories_not_in_common_checker
+    @_InputCheckCategorical._categories_not_in_common_checker
     def categories_not_in_common(train, test, column_name):
         """
         General Information
@@ -297,7 +303,7 @@ class NBcategorical(object):
         print(constance_object.SECOND.format(in_train))
 
     @staticmethod
-    @_category_ratio_checker
+    @_InputCheckCategorical._category_ratio_checker
     def category_ratio(database, columns_to_check=None, num_categories=5):
         """
         General Information
@@ -305,7 +311,7 @@ class NBcategorical(object):
         Returns a data base with categories and their ratio of appearance in the column.
         The user can input a list of columns to check or the method will return all the columns categories ratio.
         The user can choose how many *top* categories will be returned.
-        Categories with value under 5% or over 90% will be marked in red to raise a flag that the data
+        Categories with value over 90% will be marked in red to raise a flag that the data
         is imbalanced.
 
         Parameters
@@ -350,3 +356,52 @@ class NBcategorical(object):
                 val_count = val_count_temp[:num_categories]
             category_ratio_df[column_name] = val_count
         return category_ratio_df.transpose().style.applymap(color_imbalanced)
+
+    # todo: debug
+    # @staticmethod
+    # @_InputCheckCategorical.label_encoder_features_checker
+    # def label_encoder_features(database, features_to_encode):
+    #     """
+    #     General Information
+    #     ----------
+    #     Encode features in the giving database using LabelEncoder() from sklearn.
+    #     Will preform encoding on all giving features and returns a dictionary with all the different
+    #     encoders where the ket is the feature name and the value is the LabelEncoder instance fitted
+    #     to that feature. Thus, the user is able to un-encode the feature when necessary.
+    #
+    #     Parameters
+    #     ----------
+    #     :param database: pandas Data Frame
+    #     First data set to check columns names from
+    #
+    #     :param features_to_encode: list or tuple of strings/int/float
+    #     The column names that the user wishes to encode.
+    #     All column names must be in the database and categorical/
+    #
+    #     :return:
+    #     returns a dictionary with all the different
+    #     encoders where the ket is the feature name and the value is the LabelEncoder instance fitted
+    #     to that feature. Thus, the user is able to un-encode the feature when necessary.
+    #
+    #     Raises
+    #     ------
+    #     ValueError : If input value not as mentioned above.
+    #
+    #     Exemples
+    #     -------
+    #     Will be added in version 0.2
+    #     """
+    #
+    #     label_encoder_dict = {}
+    #
+    #     for feat in features_to_encode:
+    #         le = LabelEncoder()
+    #
+    #         # fit the feature that we want to encode and tresform to numeric categories
+    #         database[feat] = le.fit_transform(database[feat])
+    #
+    #         print(f"for deature {feat} the categories are:\n", database[feat].value_counts().index)#todo:changeToConst
+    #
+    #         label_encoder_dict[feat] = le
+    #
+    #     return label_encoder_dict

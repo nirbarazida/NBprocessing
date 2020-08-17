@@ -11,7 +11,7 @@ Good luck!
 """
 
 import pandas as pd
-from NBprocessing.general._input_check_general import _missing_values_checker
+from NBprocessing.general._input_check_general import _InputCheckGeneral
 
 
 class NBgeneral(object):
@@ -28,7 +28,7 @@ class NBgeneral(object):
     """
 
     @staticmethod
-    @_missing_values_checker
+    @_InputCheckGeneral._missing_values_checker
     def missing_values(database):
         """
         General Information

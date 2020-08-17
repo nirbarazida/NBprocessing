@@ -18,6 +18,7 @@ class Const(object):
         self.CHECK_BOUNDARIES = data["CHECK_INPUT"]["CHECK_BOUNDARIES"]
         self.CHECK_DICT = data["CHECK_INPUT"]["CHECK_DICT"]
         self.CHECK_NUM_CATEGORIES = data["CHECK_INPUT"]["CHECK_NUM_CATEGORIES"]
+        self.CHECK_TITLE = data["CHECK_INPUT"]["CHECK_TITLE"]
 
         # categorical
         self.RED = data["CATEGORICAL"]["GENERAL_FUNCTIONS_CATEGORICAL"]["RED"]

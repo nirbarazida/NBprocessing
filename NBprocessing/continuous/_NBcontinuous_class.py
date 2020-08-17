@@ -30,8 +30,7 @@ Created by: Nir Barazida
 Good luck!
 """
 
-from NBprocessing.continuous._input_check_continuous import _fill_na_timedate_checker, \
-    _remove_outliers_by_boundaries_checker, _remove_and_get_num_outliers_by_value_checker
+from NBprocessing.continuous._input_check_continuous import _InputCheckContinuous
 from NBprocessing.src import constance_object
 
 
@@ -69,7 +68,7 @@ class NBcontinuous(object):
     """
 
     @staticmethod
-    @_fill_na_timedate_checker
+    @_InputCheckContinuous._fill_na_timedate_checker
     def fill_na_timedate(database, column_name):
         """
         General Information
@@ -107,7 +106,7 @@ class NBcontinuous(object):
         database[column_name].fillna(missing_date_value, inplace=True)
 
     @staticmethod
-    @_remove_outliers_by_boundaries_checker
+    @_InputCheckContinuous._remove_outliers_by_boundaries_checker
     def remove_outliers_by_boundaries(database, column_name, bot_qu, top_qu):
         """
         Remove outliers values from column by top and bottom boundaries.
@@ -176,7 +175,7 @@ class NBcontinuous(object):
             print(constance_object.TYPE_ERROR)
 
     @staticmethod
-    @_remove_and_get_num_outliers_by_value_checker
+    @_InputCheckContinuous._remove_and_get_num_outliers_by_value_checker
     def get_num_outliers_by_value(database, filter_dict_up=None, filter_dict_down=None):
         """
         Prints how many indexes are above the values in the 'filter_dict_up' dictionary and how many indexes are below
@@ -231,7 +230,7 @@ class NBcontinuous(object):
             print(constance_object.TYPE_ERROR)
 
     @staticmethod
-    @_remove_and_get_num_outliers_by_value_checker
+    @_InputCheckContinuous._remove_and_get_num_outliers_by_value_checker
     def remove_outliers_by_value(database, filter_dict_up=None, filter_dict_down=None):
         """
         remove all indexes that are above the values in the 'filter_dict_up' dictionary and indexes that are below

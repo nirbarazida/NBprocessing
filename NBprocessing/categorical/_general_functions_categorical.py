@@ -9,5 +9,5 @@ def color_imbalanced(raw_input):
     """
     pattern = re.compile(r'(\d+)')
     val = int(pattern.search(raw_input)[0])
-    color = constance_object.BLACK if 5 < val < 90 else constance_object.RED
+    color = constance_object.BLACK if val < 90 else constance_object.RED
     return constance_object.OUTPUT.format(color)

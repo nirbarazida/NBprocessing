@@ -50,3 +50,8 @@ class _CheckInput(object):
         if type(num_categories) != int or num_categories < 0:
             raise ValueError(constance_object.CHECK_NUM_CATEGORIES)
 
+    @staticmethod
+    def _check_title(title):
+        if type(title) != str and type(title) != int and type(title) != float and title != None:
+            raise ValueError(constance_object.CHECK_TITLE)
+

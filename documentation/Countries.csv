@@ -1,0 +1,190 @@
+Index,Country,Population,Zone,Colonizer,Civil Freedom,Press Freedom,Democracy,Urban Population (%),Immigrants (Ratio),Emigrants (Ratio),GDP PP/C,Unemployment,Inequality Index,PPP,Homicide rate,HDI,Tax to profit %
+0,AFGHANISTAN,35530081,South Asia,None,not free,difficult situation,authoritarian regime,25.5,0,0.13,2017,23.9,27.8,1.57,6.35,0.5,71.4
+1,ALBANIA,2930187,Eastern Europe & Central Asia,None,partly free,noticeable problems,hybrid regime,60.3,0.03,0.28,13345,12.5,29,2.51,2.7,0.79,37.3
+2,ALGERIA,41318142,Middle East & North Africa,France,not free,difficult situation,authoritarian regime,72.6,0.01,0.04,1544,11.2,27.6,2.7,1.36,0.75,66
+3,ANGOLA,29784193,Sub-Saharan Africa,Portugal,not free,difficult situation,authoritarian regime,65.5,0,0.02,6814,18.32,42.7,0.64,4.85,0.58,49.1
+4,ANTIGUA AND BARBUDA,102012,Latin America & Caribbean,UK,free,satisfactory situation,,24.6,0.32,0.45,27981,11,45.38,3.74,10.33,0.78,42.8
+5,ARGENTINA,44271041,Latin America & Caribbean,Spain,free,noticeable problems,flawed democracy,91.9,0.05,0.02,20537,7.2,42.4,6.99,5.94,0.83,106
+6,ARMENIA,2930450,Eastern Europe & Central Asia,None,partly free,noticeable problems,hybrid regime,63.1,0.11,0.24,10176,20.6,32.4,1.61,2.98,0.76,18.5
+7,AUSTRALIA,24450561,East Asia & Pacific,UK,free,satisfactory situation,full democracy,86,0.33,0.02,52373,6.7,34.7,11.83,0.94,0.94,47.4
+8,AUSTRIA,8735453,Western Europe,None,free,good situation,full democracy,58.3,0.15,0.06,52137,5.1,30.5,5.41,0.66,0.91,51.5
+9,AZERBAIJAN,9827589,Eastern Europe & Central Asia,None,not free,very serious situation,authoritarian regime,55.7,0.03,0.11,18076,6,31.8,2.97,2.14,0.76,40.8
+10,BAHAMAS,395361,Latin America & Caribbean,UK,free,satisfactory situation,,83,0.16,0.09,33494,10,45.38,4.61,28.4,0.81,31.5
+11,BAHRAIN,1492584,Middle East & North Africa,UK,not free,very serious situation,authoritarian regime,89.3,0.55,0.04,50057,3.8,26.31,2.42,0.52,0.85,13.8
+12,BANGLADESH,164669751,South Asia,UK,partly free,difficult situation,hybrid regime,36.6,0.01,0.04,462,4,32,0.23,2.5,0.61,33.4
+13,BARBADOS,285719,Latin America & Caribbean,UK,free,satisfactory situation,,31.1,0.11,0.26,18534,10.5,45.38,2.54,10.91,0.8,35.3
+14,BELARUS,9468338,Eastern Europe & Central Asia,None,not free,difficult situation,authoritarian regime,78.6,0.12,0.14,20003,5.6,26.7,3.89,3.58,0.81,53.3
+15,BELGIUM,11429336,Western Europe,None,free,good situation,flawed democracy,98,0.13,0.05,48245,6.2,28.1,11,1.95,0.92,57.7
+16,BELIZE,374681,Latin America & Caribbean,UK,free,satisfactory situation,,45.7,0.15,0.14,8501,10.1,53.3,2.89,37.6,0.71,31.1
+17,BENIN,11175692,Sub-Saharan Africa,UK,free,noticeable problems,hybrid regime,47.3,0.02,0.05,2426,18.32,47.8,1.03,6.18,0.52,57.4
+18,BHUTAN,80761,South Asia,None,partly free,noticeable problems,hybrid regime,40.9,0.07,0.05,954,3.2,38.7,0.97,1.13,0.61,35.3
+19,BOLIVIA,11051600,Latin America & Caribbean,Spain,partly free,noticeable problems,hybrid regime,69.4,0.01,0.07,7477,4,45.8,3.03,6.3,0.69,83.7
+20,BOSNIA AND HERZEGOVINA,3507017,Eastern Europe & Central Asia,None,partly free,noticeable problems,hybrid regime,48.2,0.01,0.3,13491,20.5,33.1,2.89,1.28,0.77,23.7
+21,BOTSWANA,2291661,Sub-Saharan Africa,UK,free,noticeable problems,flawed democracy,69.4,0.07,0.03,17965,20,60.5,0.56,15.04,0.72,25.1
+22,BRAZIL,209288278,Latin America & Caribbean,Portugal,free,noticeable problems,flawed democracy,86.6,0.01,0.01,16154,13.1,51.3,2.59,29.53,0.76,65.1
+23,BRUNEI,428697,East Asia & Pacific,UK,not free,difficult situation,,77.6,0.49,0.1,7953,6.9,27.07,3.45,0.49,0.85,8
+24,BULGARIA,7084571,Eastern Europe & Central Asia,None,free,difficult situation,flawed democracy,75,0.01,0.14,23156,5.4,37.4,4.49,1.14,0.81,27.7
+25,BURKINA FASO,19193382,Sub-Saharan Africa,France,partly free,satisfactory situation,hybrid regime,29.4,0.04,0.07,1996,18.32,35.3,0.92,0.37,0.42,41.3
+26,BURUNDI,10864245,Sub-Saharan Africa,Belgium,not free,very serious situation,authoritarian regime,13,0.03,0.03,732,18.32,39.2,0.85,6.02,0.42,41.2
+27,CAPE VERDE,546388,Sub-Saharan Africa,Portugal,free,satisfactory situation,flawed democracy,65.7,0.03,0.24,7316,9,40,1.49,11.49,0.65,37
+28,CAMBODIA,16005373,East Asia & Pacific,France,not free,difficult situation,authoritarian regime,23.4,0.01,0.07,4335,0.3,30.8,3.45,1.84,0.58,21.7
+29,CAMEROON,24053727,Sub-Saharan Africa,France,not free,difficult situation,authoritarian regime,56.4,0.01,0.01,3828,4.4,46.5,0.87,4.17,0.56,57.7
+30,CANADA,36624199,North America,UK,free,satisfactory situation,full democracy,81.4,0.22,0.04,49651,5.6,34,8.09,1.68,0.93,20.5
+31,CENTRAL AFRICAN REPUBLIC,4659080,Sub-Saharan Africa,France,not free,difficult situation,authoritarian regime,41.4,0.03,0.08,712,6.9,56.2,0.67,19.76,0.37,73.3
+32,CHAD,14899994,Sub-Saharan Africa,France,not free,difficult situation,authoritarian regime,23.1,0.03,0.01,2415,22.6,43.3,1.72,9.04,0.4,63.5
+33,CHILE,18054726,Latin America & Caribbean,Spain,free,satisfactory situation,flawed democracy,87.6,0.06,0.03,25978,7,47.7,3.25,3.46,0.84,34
+34,CHINA,1409517397,East Asia & Pacific,None,not free,very serious situation,authoritarian regime,100,0,0.01,1811,2,42.2,1.68,0.62,0.75,64.9
+35,COLOMBIA,49065615,Latin America & Caribbean,Spain,partly free,difficult situation,flawed democracy,80.8,0,0.1,14943,9.4,50.8,3.24,25.5,0.75,71.9
+36,COMOROS,813912,Sub-Saharan Africa,France,partly free,noticeable problems,authoritarian regime,29,0.02,0.13,1632,6.5,45,1.46,7.7,0.5,219.6
+37,DEMOCRATIC REPUBLIC OF CONGO,22344561,Sub-Saharan Africa,UK,not free,difficult situation,authoritarian regime,40.98,0.01,0.02,767,18.32,40,0.85,8.89,0.46,54.6
+38,THE CONGO,5260750,Sub-Saharan Africa,Belgium,not free,difficult situation,authoritarian regime,44.5,0.1,0.01,6799,18.32,40.2,3.35,13.55,0.61,54.3
+39,COSTA RICA,4905769,Latin America & Caribbean,Spain,free,good situation,flawed democracy,79.3,0.09,0.03,17559,8.5,48.7,2.81,11.9,0.79,58.3
+40,COTE D'IVOIRE,24294750,Sub-Saharan Africa,France,partly free,noticeable problems,authoritarian regime,50.8,0.12,0.04,4178,18.32,41.7,0.9,11.63,0.49,50.1
+41,CROATIA,4189353,Eastern Europe & Central Asia,None,free,noticeable problems,flawed democracy,56.9,0.18,0.17,26221,8.1,32.2,5.41,1.04,0.83,20.5
+42,CYPRUS,1179551,Eastern Europe & Central Asia,None,free,noticeable problems,,66.8,0.18,0.13,39973,8.5,35.6,3.89,1.11,0.87,22.2
+43,CUBA,11484636,Latin America & Caribbean,Spain,not free,very serious situation,authoritarian regime,77,0,0.11,15612.31,2.6,45.38,0.08,4.99,0.78,100
+44,CZECH REPUBLIC,10618303,Eastern Europe & Central Asia,None,free,satisfactory situation,flawed democracy,73.8,0.04,0.08,37371,1.9,25.9,5.13,0.61,0.89,46.1
+45,DENMARK,5733551,Western Europe,None,free,good situation,full democracy,86.8,0.09,0.04,52121,9.1,28.5,5.41,0.98,0.93,23.8
+46,DJIBOUTI,956985,Middle East & North Africa,France,not free,very serious situation,authoritarian regime,77.8,0.14,0.02,3786,40,44.1,2.42,6.48,0.48,37.7
+47,DOMINICA,73925,Latin America & Caribbean,UK,free,satisfactory situation,,70.5,0.09,0.49,9886,23,45.38,2.03,8.37,0.74,32.6
+48,DOMINICAN REPUBLIC,10766998,Latin America & Caribbean,Spain,partly free,noticeable problems,flawed democracy,81.1,0.04,0.11,18424,14.4,45.3,0.82,15.18,0.74,48.8
+49,ECUADOR,16624858,Latin America & Caribbean,Spain,partly free,noticeable problems,flawed democracy,63.8,0.02,0.07,11718,4.2,45,4.27,5.85,0.75,32.3
+50,EGYPT,97553151,Middle East & North Africa,UK,not free,very serious situation,authoritarian regime,42.7,0,0.03,13366,9.9,31.8,2.42,2.51,0.7,46.4
+51,EL SALVADOR,6377853,Latin America & Caribbean,Spain,free,noticeable problems,flawed democracy,72,0.01,0.19,8041,7,40,3.07,82.84,0.67,35.6
+52,EQUATORIAL GUINEA,1267689,Sub-Saharan Africa,Spain,not free,very serious situation,authoritarian regime,72.1,0.01,0.09,2271,8.6,40,1.79,2.31,0.59,79.4
+53,ERITREA,5068831,Sub-Saharan Africa,Italy,not free,very serious situation,authoritarian regime,40.1,0,0.09,1657,18.32,40,0.85,8.04,0.44,83.7
+54,ESTONIA,1309632,Eastern Europe & Central Asia,None,free,good situation,flawed democracy,68.9,0.16,0.13,34096,5.8,34.6,5.25,3.19,0.87,48.7
+55,ESWATINI,1367254,Sub-Saharan Africa,UK,not free,difficult situation,authoritarian regime,23.8,0.02,0.07,1102,28,51.5,0.54,17.29,0.59,35.7
+56,ETHIOPIA,104957438,Sub-Saharan Africa,None,not free,difficult situation,authoritarian regime,20.8,0.01,0.01,2332,18.32,33.2,0.85,7.56,0.46,37.7
+57,FIJI,905502,East Asia & Pacific,UK,partly free,noticeable problems,hybrid regime,56.2,0.03,0.19,10234,8.6,36.4,2.09,2.26,0.74,32.2
+58,FINLAND,5523231,Western Europe,None,free,good situation,full democracy,85.4,0.05,0.05,4643,7.2,26.8,5.41,1.42,0.92,37.3
+59,FRANCE,64979548,Western Europe,None,free,satisfactory situation,flawed democracy,77.38,0.11,0.03,45775,12.2,32.3,11.53,1.35,0.9,60.4
+60,GABON,2025137,Sub-Saharan Africa,France,not free,noticeable problems,authoritarian regime,89.4,0.24,0.04,18496,28,38,2.34,8.04,0.7,47.1
+61,GAMBIA,2100568,Sub-Saharan Africa,UK,partly free,difficult situation,hybrid regime,61.3,0.03,0.05,2792,18.32,47.3,0.38,9.13,0.46,51.3
+62,GEORGIA,3912061,Eastern Europe & Central Asia,None,partly free,noticeable problems,hybrid regime,58.6,0.04,0.17,11485,14,36.5,0.14,0.99,0.78,9.9
+63,GERMANY,82114224,Western Europe,None,free,good situation,full democracy,77.3,0.15,0.05,52559,3.3,31.4,11.07,1.18,0.94,49
+64,GHANA,28833629,Sub-Saharan Africa,UK,free,satisfactory situation,flawed democracy,56.1,0.01,0.03,6452,11.9,42.8,0.85,1.68,0.59,32.4
+65,GREECE,11159773,Western Europe,None,free,noticeable problems,flawed democracy,79.1,0.11,0.07,29123,18,35.8,5.8,0.75,0.87,51.9
+66,GRENADA,107825,Latin America & Caribbean,UK,free,satisfactory situation,,36.3,0.11,0.38,16167,24,45.38,2.43,10.25,0.77,47.8
+67,GUATEMALA,16913503,Latin America & Caribbean,Spain,partly free,difficult situation,hybrid regime,51.1,0.01,0.06,8436,2.3,48.7,2.79,27.26,0.65,35.2
+68,GUINEA,8251162,Sub-Saharan Africa,France,partly free,noticeable problems,flawed democracy,13.2,0,0,231,2.5,43.9,1.22,7.85,0.46,61.4
+69,GUINEA-BISSAU,1861283,Sub-Saharan Africa,Portugal,partly free,noticeable problems,authoritarian regime,43.4,0.01,0.06,1937,18.32,50.7,0.4,9.55,0.46,45.5
+70,GUAYANA,19488205,Latin America & Caribbean,UK,,,,64.97,0.06,0.16,15612.31,9.88,45.38,2.43,21.31,0.74,30.6
+71,HAITI,10981229,Latin America & Caribbean,France,partly free,noticeable problems,hybrid regime,55.3,0,0.1,1864,9.88,60.8,1.28,10.04,0.5,42.7
+72,HONDURAS,9265067,Latin America & Caribbean,Spain,partly free,difficult situation,hybrid regime,57.1,0,0.07,5212,5.9,50,2.16,56.52,0.62,44.4
+73,HONG KONG,7364883,East Asia & Pacific,UK,partly free,noticeable problems,flawed democracy,51.82,0.39,0.11,64216,9.58,27.07,5.35,0.38,0.93,22.9
+74,HUNGARY,9721559,Eastern Europe & Central Asia,None,free,noticeable problems,flawed democracy,71.4,0.05,0.06,31903,3.7,30.9,5.75,2.07,0.84,40.3
+75,ICELAND,335025,Western Europe,Denmark,free,good situation,full democracy,93.8,0.11,0.11,55917,2.9,25.6,5.41,0.3,0.94,29.4
+76,INDIA,1339180127,South Asia,UK,free,difficult situation,flawed democracy,34,0,0.02,7874,6.9,35.1,1,3.22,0.64,52.1
+77,INDONESIA,263991379,South Asia,The Netherlands,partly free,difficult situation,flawed democracy,55.3,0,0.02,1323,5.33,39.5,1.68,0.5,0.69,30.1
+78,IRAN,81162788,Middle East & North Africa,None,not free,very serious situation,authoritarian regime,74.9,0.03,0.01,19557,12,38.8,4.84,2.47,0.8,44.7
+79,IRAQ,38274618,Middle East & North Africa,UK,not free,very serious situation,hybrid regime,70.5,0,0.04,17659,16,29.5,2.51,2.2,0.69,30.8
+80,IRELAND,4761657,Western Europe,None,free,good situation,full democracy,63.2,0.16,0.16,78785,5.3,31.9,9.8,0.97,0.94,26
+81,ISRAEL,8321570,Middle East & North Africa,UK,free,noticeable problems,flawed democracy,92.4,0.27,0.03,37972,3.7,41.4,6.59,1.36,0.9,26.2
+82,ITALY,59359900,Western Europe,None,free,satisfactory situation,flawed democracy,70.4,0.08,0.05,39637,10.6,34.7,5.41,0.67,0.88,53.1
+83,JAMAICA,2890299,Latin America & Caribbean,UK,free,good situation,flawed democracy,55.7,0.01,0.28,9447,10.4,45.5,1.94,47.01,0.73,35.1
+84,JAPAN,127484450,East Asia & Pacific,None,free,noticeable problems,flawed democracy,91.6,0.02,0.01,44227,2.4,32.1,7.1,0.28,0.91,46.7
+85,JORDAN,9702353,Middle East & North Africa,UK,partly free,difficult situation,authoritarian regime,91,0.4,0.08,9433,18.5,35.4,3.21,1.55,0.74,28.6
+86,KAZAKHSTAN,18204499,Eastern Europe & Central Asia,None,not free,difficult situation,authoritarian regime,57.4,0.21,0.19,2755,4.9,26.5,1.44,4.81,0.8,29.4
+87,KENYA,49699862,Sub-Saharan Africa,UK,partly free,noticeable problems,hybrid regime,27,0.02,0.01,3691,7.4,47.7,0.61,4.87,0.59,37.2
+88,KIRIBATI,116398,East Asia & Pacific,UK,free,,,54.1,0.03,0.04,2086,38.2,27.07,1.15,7.5,0.61,32.7
+89,KOREA,50982212,East Asia & Pacific,None,free,satisfactory situation,flawed democracy,81.5,0.03,0.05,41351,4.9,31.6,8.32,0.7,0.9,33.1
+90,KOSOVO,16197458,Eastern Europe & Central Asia,None,partly free,noticeable problems,,61.55,0.08,0.13,11552,26.5,26.5,2.99,1.6,0.8,15.2
+91,KUWAIT,4136528,Middle East & North Africa,UK,partly free,noticeable problems,authoritarian regime,100,0.7,0.04,67,2.1,26.31,1.44,1.8,0.8,13
+92,KYRGYZSTAN,6045117,Eastern Europe & Central Asia,None,partly free,noticeable problems,hybrid regime,36.4,0.05,0.11,3844,7.2,26.8,0.32,4.49,0.67,29
+93,LAOS,6858160,South Asia,France,not free,very serious situation,authoritarian regime,35,0,0.17,7925,1.5,37.9,2.08,7.01,0.6,24.1
+94,LATVIA,1949670,Eastern Europe & Central Asia,None,free,satisfactory situation,flawed democracy,68.1,0.14,0.15,29901,6.9,35.1,4.35,3.36,0.85,36
+95,LEBANON,6082357,Middle East & North Africa,France,partly free,noticeable problems,hybrid regime,88.6,0.33,0.12,14684,10,26.31,3.58,3.99,0.76,31.1
+96,LESOTHO,2233339,Sub-Saharan Africa,UK,partly free,noticeable problems,flawed democracy,28.2,0,0.15,3494,28.1,54.2,1.29,41.25,0.52,13.6
+97,LIBERIA,4731906,Sub-Saharan Africa,None,partly free,noticeable problems,hybrid regime,51.2,0.05,0.06,1418,18.32,33.2,0.19,3.23,0.44,45.5
+98,LIBYA,6374616,Middle East & North Africa,Italy,not free,very serious situation,authoritarian regime,80.1,0.12,0.02,11469,13,26.31,3.74,2.5,0.71,32.6
+99,LITHUANIA,2890297,Eastern Europe & Central Asia,None,free,satisfactory situation,flawed democracy,67.7,0.05,0.16,34826,6.3,37.7,6.65,5.25,0.86,42.6
+100,LUXEMBOURG,583455,Western Europe,None,free,good situation,full democracy,91,0.43,0.1,106704,5,31.2,11.85,0.72,0.9,20.5
+101,MACEDONIA,2083160,Eastern Europe & Central Asia,None,partly free,noticeable problems,hybrid regime,58,0.07,0.2,15709,22.9,35.6,2.64,1.59,0.76,13
+102,MADAGASCAR,25570895,Sub-Saharan Africa,France,partly free,noticeable problems,hybrid regime,37.2,0,0.01,163,18.32,40.6,0.75,7.69,0.52,38.3
+103,MALAWI,18622104,Sub-Saharan Africa,UK,partly free,noticeable problems,hybrid regime,16.9,0.01,0.02,1199,18.32,46.1,0.41,1.73,0.48,34.5
+104,MALASYA,31624264,South Asia,UK,partly free,difficult situation,flawed democracy,76,0.08,0.06,3086,3.5,46.3,2.66,2.11,0.8,39.2
+105,MALDIVES,43633,South Asia,Portugal,partly free,difficult situation,,39.8,0.24,0.01,2176,4.91,36.8,1.54,0.75,0.72,30.2
+106,MALI,14742523,Sub-Saharan Africa,France,partly free,,,45,0,0.16,2384,8.1,,0.85,4.31,0.43,48.3
+107,MALTA,430835,Western Europe,None,free,noticeable problems,full democracy,94.6,0.08,0.19,45606,3.7,29.35,6.8,0.94,0.88,44
+108,MARSHALL ISLANDS,53127,East Asia & Pacific,US,free,,,77,0.03,0.12,3697,36,27.07,1.88,2.74,0.71,65.7
+109,MAURITANIA,4420184,Middle East & North Africa,France,not free,noticeable problems,authoritarian regime,53.7,0.02,0.03,399,11.7,32.4,0.14,9.94,0.52,67
+110,MAURITIUS,1265138,Sub-Saharan Africa,France,free,noticeable problems,full democracy,40.8,0.04,0.12,23699,6.9,35.8,0.69,1.82,0.79,22.1
+111,MEXICO,129163276,Latin America & Caribbean,Spain,partly free,difficult situation,flawed democracy,80.2,0.01,0.09,20602,3.39,43.4,1.48,19.26,0.77,53
+112,MICRONESIA,105544,East Asia & Pacific,Germany,free,,,22.7,0.03,0.16,3482,16.2,40.1,3.45,4.67,0.63,60.5
+113,MOLDOVA,4051212,Eastern Europe & Central Asia,None,partly free,noticeable problems,hybrid regime,42.6,0.11,0.18,7305,4.2,26.3,0.84,3.19,0.7,40.5
+114,MONGOLIA,3075647,East Asia & Pacific,None,free,noticeable problems,flawed democracy,68.4,0.01,0.02,13447,7.3,32.3,1.67,5.66,0.74,24.7
+115,MONTENEGRO,62896,Eastern Europe & Central Asia,None,partly free,noticeable problems,hybrid regime,66.8,0.08,0.18,19043,14.4,31.9,2.59,4.46,0.81,22.2
+116,MOROCCO,35739580,Middle East & North Africa,France,partly free,difficult situation,hybrid regime,62.5,0,0.08,8933,10.7,40.7,3.74,1.24,0.67,49.8
+117,MOZAMBIQUE,29668834,Sub-Saharan Africa,France,partly free,noticeable problems,hybrid regime,36,0.01,0.03,1291,24.5,45.6,0.87,3.4,0.44,36.1
+118,MYANMAR,53370609,Sub-Saharan Africa,UK,,,,30.6,0,0.05,6511,18.32,38.1,1.32,2.27,0.58,31.2
+119,NAMIBIA,2533794,Sub-Saharan Africa,UK,free,satisfactory situation,flawed democracy,50,0.02,0.06,11229,34,59.1,0.85,17.14,0.65,20.7
+120,NEPAL,29304998,South Asia,None,partly free,noticeable problems,hybrid regime,19.7,0.04,0.05,2905,3,32.8,1.76,2.16,0.57,36.7
+121,NETHERLANDS,25398,Western Europe,None,free,good situation,full democracy,100,0.11,0.06,56383,10,28.6,10.47,0.55,0.93,40.8
+122,NEW ZEALAND,4705818,East Asia & Pacific,UK,free,good situation,full democracy,51.82,0.25,0.15,40135,3.9,27.07,10.79,0.99,0.92,34.6
+123,NICARAGUA,6217581,Latin America & Caribbean,Spain,partly free,noticeable problems,hybrid regime,58.5,0.01,0.1,5683,6.5,46.6,1.36,7.37,0.66,60.6
+124,NIGER,21477348,Sub-Saharan Africa,France,partly free,noticeable problems,authoritarian regime,16.4,0.01,0.02,1217,18.32,34,0.78,4.44,0.35,47.3
+125,NIGERIA,190886311,Sub-Saharan Africa,UK,partly free,difficult situation,hybrid regime,50.3,0.01,0.01,6027,18.8,43,1.4,9.85,0.53,34.8
+126,NORWAY,5305383,Western Europe,None,free,good situation,full democracy,82.2,0.14,0.04,74356,4,26.8,5.41,0.51,0.95,37
+127,OMAN,4636262,Middle East & North Africa,UK,not free,difficult situation,authoritarian regime,84.5,0.31,0,46584,15.41,26.31,8.33,0.66,0.82,27.4
+128,PAKISTAN,197015955,South Asia,UK,partly free,difficult situation,hybrid regime,36.7,0.02,0.03,568,6,30.7,2.25,4.41,0.56,34.1
+129,PALAU,21729,South Asia,Germany,free,,,79.9,0.28,0.12,14952,1.7,33.48,3.19,3.11,0.8,75.8
+130,PANAMA,4098587,Latin America & Caribbean,Spain,free,noticeable problems,flawed democracy,67.7,0.05,0.04,25674,5.5,50.4,2.59,9.67,0.79,37.2
+131,PAPUA-NEW GUINEA,93404957,East Asia & Pacific,UK,,,,51.82,0.09,0.1,18417.6,9.58,27.07,3.45,2.74,0.75,39.3
+132,PARAGUAY,6811297,Latin America & Caribbean,Spain,partly free,noticeable problems,flawed democracy,61.6,0.03,0.11,13395,6.5,47.9,3.91,9.29,0.7,35
+133,PERU,32165485,Latin America & Caribbean,Spain,free,noticeable problems,flawed democracy,77.9,0,0.04,14224,6.1,43.8,2.57,7.67,0.75,36.8
+134,PHILIPPINES,104918090,East Asia & Pacific,US,partly free,difficult situation,flawed democracy,46.9,0,0.05,8936,5.5,40.1,3.32,11.02,0.7,42.9
+135,POLAND,38170712,Eastern Europe & Central Asia,None,free,noticeable problems,flawed democracy,60.1,0.02,0.1,31939,3.8,32.1,6.9,0.67,0.87,40.7
+136,PORTUGAL,10329506,Western Europe,None,free,good situation,flawed democracy,65.2,0.08,0.18,32006,6.7,35.6,5.94,0.64,0.85,39.8
+137,PUERTO RICO,3663131,Latin America & Caribbean,US,,,,93.6,0.06,0.16,39737,9.3,45.38,2.43,18.51,0.74,63.4
+138,QATAR,2639211,Middle East & North Africa,UK,not free,difficult situation,authoritarian regime,99.1,0.74,0.34,130475,8.9,41.1,2.42,0.38,0.86,11.3
+139,ROMANIA,19679306,Eastern Europe & Central Asia,None,free,satisfactory situation,flawed democracy,54,0.01,0.15,26447,4,27.5,6.35,1.25,0.81,40
+140,RUSSIA,143989754,Eastern Europe & Central Asia,None,not free,difficult situation,authoritarian regime,74.4,0.08,0.07,29267,6,37.7,2.59,10.82,0.82,46.3
+141,RWANDA,12208407,Sub-Saharan Africa,Belgium,not free,difficult situation,authoritarian regime,17.2,0.04,0.03,228,13.2,50.4,0.85,2.52,0.52,33.2
+142,SAMOA,55641,East Asia & Pacific,UK,free,satisfactory situation,,18.2,0.03,0.37,589,9.2,27.07,1.08,3.15,0.71,19.3
+143,SAN MARINO,334,Eastern Europe & Central Asia,None,free,,,97.2,0.15,0.07,60313,8,31.63,12,2.66,0.8,35.4
+144,SAUDI ARABIA,32938213,Middle East & North Africa,None,not free,very serious situation,authoritarian regime,83.8,0.31,0.01,55943,5.7,45.9,7.43,1.5,0.85,15.7
+145,SENEGAL,15850567,Sub-Saharan Africa,France,free,noticeable problems,flawed democracy,47.2,0.02,0.04,3651,48,40.3,0.78,7.38,0.51,45.1
+146,SERBIA,8790574,Eastern Europe & Central Asia,None,free,noticeable problems,flawed democracy,56.1,0.06,0.1,17555,11.8,29.1,4.24,1.39,0.79,36.6
+147,SEYCHELLES,94737,Sub-Saharan Africa,France,partly free,noticeable problems,,56.7,0.13,0.11,30505,18.32,46.8,3.09,12.74,0.8,30.1
+148,SIERRA LEONE,7557212,Sub-Saharan Africa,France,partly free,noticeable problems,hybrid regime,42.1,0.02,0.02,162,8.6,34,1.25,1.71,0.42,30.7
+149,SINGAPUR,5708844,South Asia,UK,partly free,difficult situation,flawed democracy,100,0.43,0.05,100345,2.8,33.48,1.54,0.32,0.93,20.6
+150,SLOVAKIA,5447662,Eastern Europe & Central Asia,None,free,satisfactory situation,flawed democracy,53.7,0.03,0.06,3513,6.6,26.1,5.36,1.05,0.86,49.7
+151,SLOVENIA,2079976,Eastern Europe & Central Asia,None,free,satisfactory situation,flawed democracy,54.5,0.11,0.06,36746,5.2,25.7,7.63,0.48,0.9,31
+152,SOLOMON ISLANDS,611343,East Asia & Pacific,UK,free,,,23.7,0.01,0.01,2242,9.58,27.07,0.41,3.77,0.55,32
+153,SOUTH AFRICA,56717156,Sub-Saharan Africa,UK,free,satisfactory situation,flawed democracy,66.4,0.06,0.02,13675,27.5,63,0.85,33.97,0.7,29.1
+154,SOUTH SUDAN,12575714,Sub-Saharan Africa,UK,not free,difficult situation,,19.6,0.06,0.05,1502,18.32,45.5,0.85,13.9,0.39,31.4
+155,SPAIN,46354321,Western Europe,None,free,satisfactory situation,full democracy,80.3,0.13,0.03,40139,14.45,36,8.19,0.63,0.89,47
+156,SRI LANKA,20876917,South Asia,UK,partly free,difficult situation,flawed democracy,18.5,0.02,0.07,13397,4,39.8,1.03,2.55,0.77,55.2
+157,KITTS,55345,Latin America & Caribbean,UK,free,satisfactory situation,,30.8,0.11,0.42,2982,5.1,45.38,4.37,34.23,0.78,49.7
+158,LUCIA,178844,Latin America & Caribbean,UK,free,satisfactory situation,,18.7,0.07,0.23,14355,15.7,42.6,2.43,19.27,0.75,34.7
+159,VINCENT,109897,Latin America & Caribbean,UK,free,satisfactory situation,,52.2,0.09,0.37,11956,18,45.38,1.61,36.46,0.72,39.3
+160,SUDAN,40533330,Sub-Saharan Africa,UK,not free,very serious situation,authoritarian regime,34.6,0.01,0.03,4232,19.6,35.4,0.52,5.16,0.5,45.4
+161,SURINAME,563402,Latin America & Caribbean,The Netherlands,free,satisfactory situation,flawed democracy,66.1,0.08,0.3,15105,9.1,57.6,2.43,8.35,0.72,27.9
+162,SWEDEN,9910701,Western Europe,None,free,good situation,full democracy,87.4,0.19,0.03,52984,6.3,27.2,5.41,1.08,0.93,49.1
+163,SWITZERLAND,8476005,Western Europe,None,free,good situation,full democracy,73.8,0.29,0.07,64649,2.4,32.5,5.41,0.54,0.94,28.8
+164,SYRIA,18269868,Middle East & North Africa,France,not free,very serious situation,authoritarian regime,54.2,0.06,0.21,25302.95,50,35.8,1.37,2.2,0.54,42.7
+165,TAIWAN,23626456,East Asia & Pacific,None,free,satisfactory situation,flawed democracy,78.2,0.09,0.1,53023,3.72,27.07,9.98,0.82,0.75,34.6
+166,TAJIKISTAN,8921343,Eastern Europe & Central Asia,None,not free,difficult situation,authoritarian regime,27.1,0.03,0.07,3415,2.4,34,0.62,1.61,0.65,67.3
+167,TANZANIA,57310019,Sub-Saharan Africa,UK,partly free,noticeable problems,hybrid regime,33.8,0.01,0.01,3444,18.32,37.8,0.25,6.95,0.54,44
+168,THAILAND,69037513,South Asia,None,not free,difficult situation,hybrid regime,49.9,0.06,0.01,19476,0.7,36,2.93,3.24,0.76,29.5
+169,TIMOR-LESTE,93404957,East Asia & Pacific,Portugal,,,,30.6,0.01,0.03,5242,9.58,31.6,0.93,3.95,0.75,11.2
+170,TOGO,7797694,Sub-Saharan Africa,France,partly free,noticeable problems,authoritarian regime,41.7,0.03,0.06,1746,18.32,43,0.86,9,0.5,48.2
+171,TONGA,10802,East Asia & Pacific,UK,free,noticeable problems,,23.1,0.05,0.35,6111,6.5,27.07,3.45,0.95,0.73,27.5
+172,TRINIDAD AND TOBAGO,1369125,Latin America & Caribbean,UK,free,satisfactory situation,flawed democracy,53.2,0.02,0.21,32254,4.5,40.3,2.65,30.88,0.78,39.7
+173,TUNISIA,11532127,Middle East & North Africa,France,free,noticeable problems,flawed democracy,68.9,0,0.06,12372,15.9,35.8,1.2,3.05,0.74,60.2
+174,TURKEY,80745020,Eastern Europe & Central Asia,None,not free,difficult situation,hybrid regime,75.1,0.04,0.04,27956,10.3,41.9,8.2,4.31,0.79,40.9
+175,UGANDA,42862958,Sub-Saharan Africa,UK,partly free,difficult situation,hybrid regime,23.8,0.01,0.02,2498,18.32,42.8,0.62,11.52,0.52,33.7
+176,UKRAINE,44222947,Eastern Europe & Central Asia,None,partly free,noticeable problems,hybrid regime,69.4,0.11,0.12,9283,9.7,25.5,4.07,6.34,0.75,41.7
+177,UNITED ARAB EMIRATES,9400145,Middle East & North Africa,UK,not free,difficult situation,authoritarian regime,86.5,0.84,0.01,69382,1.6,26.31,2.42,0.89,0.86,15.9
+178,UNITED KINGDOM,66181585,Western Europe,None,free,satisfactory situation,full democracy,83.4,0.13,0.07,45705,3.9,34.1,10.26,1.2,0.92,30
+179,UNITED STATES,325719178,North America,UK,free,satisfactory situation,flawed democracy,82.3,0.59,0.03,62606,9.5,41.5,7.25,5.35,0.92,43.8
+180,URUGUAY,3456750,Latin America & Caribbean,Spain,free,satisfactory situation,full democracy,95.3,0.02,0.09,23274,8.5,39.7,3.2,7.69,0.8,41.8
+181,UZBEKISTAN,31910641,Eastern Europe & Central Asia,None,not free,very serious situation,authoritarian regime,50.5,0.04,0.06,7665,5.8,36.7,0.65,3,0.71,32.1
+182,VANUATU,276244,East Asia & Pacific,UK,free,,,25.3,0.01,0.03,2862,4.6,27.07,1.46,2.13,0.6,8.5
+183,VENEZUELA,31977065,Latin America & Caribbean,Spain,not free,difficult situation,authoritarian regime,88.2,0.04,0.02,15612.31,33.3,46.9,0.01,56.33,0.76,64.6
+184,VIETNAM,95540800,South Asia,France,not free,very serious situation,authoritarian regime,35.9,0,0.03,751,2.2,35.3,1.77,1.52,0.69,37.8
+185,PALESTINE,4920724,Middle East & North Africa,UK,not free,difficult situation,hybrid regime,76.2,0.06,0.44,25302.95,28.45,35.5,2.42,0.69,0.69,15.3
+186,YEMEN,28250420,Middle East & North Africa,None,not free,very serious situation,authoritarian regime,36.6,0.01,0.04,2377,35,36.7,2.42,6.66,0.45,26.6
+187,ZAMBIA,17094130,Sub-Saharan Africa,UK,partly free,difficult situation,hybrid regime,43.5,0.01,0.02,4104,15,57.1,1.27,5.3,0.59,15.6
+188,ZIMBABWE,16529904,Sub-Saharan Africa,UK,not free,difficult situation,authoritarian regime,32.2,0.03,0.05,2788,50,43.2,0.85,6.67,0.54,31.6
