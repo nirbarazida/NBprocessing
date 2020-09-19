@@ -65,7 +65,7 @@ Run from your command line prompt:
 
 ## Usage
 
-###All usage of the package functions are reviewed very specifically in this [jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/README_Notebook.ipynb) 
+### All usage of the package functions are reviewed very specifically in this [jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/README_Notebook.ipynb) 
 
 
 ## Usage Basic Examples
