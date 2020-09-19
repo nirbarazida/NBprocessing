@@ -148,10 +148,3 @@ Run from your command line prompt:
         
         ![plot_1](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/readme_figures/plot_1.png)
         
-# Contact
-- linkedin: [NirBarazida](https://www.linkedin.com/in/nir-barazida-08b3111a4/)
-
-Please let me know if you have any questions.
-
-Good luck,\
-Nir Barazida
