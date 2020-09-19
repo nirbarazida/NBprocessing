@@ -31,3 +31,18 @@ class _InputCheckGeneral(object):
             _CheckInput._check_database_input(database)
             return func(database)
         return wrapper_checker
+
+    @staticmethod
+    def _split_and_check_checker(func):
+        """
+        Wrapper function to validate the input for method 'split_and_check'
+        Will raise Exception if input incorrect
+        """
+
+        @wraps(func)
+        def wrapper_checker(database, column_name, test_size=0.3):
+            _CheckInput._check_database_input(database)
+            _CheckInput._check_column_in_database(column_name, database)
+            _CheckInput._check_threshold(test_size)
+            return func(database, column_name, test_size=0.3)
+        return wrapper_checker

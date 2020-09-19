@@ -39,6 +39,18 @@ This library include the functions:
         Categories with value under 5% or over 90% will be marked in red to raise a flag that the data
         is imbalanced.
 
+        6. label_encoder_features(database, features_to_encode):
+            Encode features in the giving database using LabelEncoder() from sklearn.
+            Will preform encoding on all giving features and returns a dictionary with all the different
+            encoders where the ket is the feature name and the value is the LabelEncoder instance fitted
+            to that feature. Thus, the user is able to un-encode the feature when necessary.
+
+        7.  OHE(database, features_list=None):
+            Encode features in the giving database using get_dummies() from pandas.
+            Will preform one hot encoding on all giving features or if non were given will preform on all non-numeric
+            features in the database.
+            Will check with the user that agree to add num of features
+            Return the encoded database and the name of the original features that was encoded
 
 Create by: Nir Barazida
 Good luck!
@@ -96,11 +108,18 @@ class NBcategorical(object):
             Categories with value over 90% will be marked in red to raise a flag that the data
             is imbalanced.
 
-        6. def label_encoder_features(database, features_to_encode):
+        6. label_encoder_features(database, features_to_encode):
             Encode features in the giving database using LabelEncoder() from sklearn.
             Will preform encoding on all giving features and returns a dictionary with all the different
             encoders where the ket is the feature name and the value is the LabelEncoder instance fitted
             to that feature. Thus, the user is able to un-encode the feature when necessary.
+
+        7.  OHE(database, features_list=None):
+            Encode features in the giving database using get_dummies() from pandas.
+            Will preform one hot encoding on all giving features or if non were given will preform on all non-numeric
+            features in the database.
+            Will check with the user that agree to add num of features
+            Return the encoded database and the name of the original features that was encoded
 
     Create by: Nir Barazida
     Good luck!
@@ -142,10 +161,6 @@ class NBcategorical(object):
         Raises
         ------
         ValueError : If input value not as mentioned above.
-
-        Exemples
-        -------
-        Will be added in version 0.2
         """
 
         remove_df = database[database[column_name].isin(categories_to_drop)]
@@ -189,10 +204,6 @@ class NBcategorical(object):
         Raises
         ------
         ValueError : If input value not as mentioned above.
-
-        Exemples
-        -------
-        Will be added in version 0.2
         """
         try:
             categories_names = list(database[column_name].value_counts(normalize=True, dropna=True).index)
@@ -246,11 +257,6 @@ class NBcategorical(object):
         Raises
         ------
         ValueError : If input value not as mentioned above.
-
-        Exemples
-        -------
-        Will be added in version 0.2
-
         """
 
         values_to_combine = database[column_name].value_counts()[
@@ -291,10 +297,6 @@ class NBcategorical(object):
         Raises
         ------
         ValueError : If input value not as mentioned above.
-
-        Exemples
-        -------
-        Will be added in version 0.2
         """
 
         in_test = set(test[column_name]) - set(train[column_name])
@@ -335,10 +337,6 @@ class NBcategorical(object):
         Raises
         ------
         ValueError : If input value not as mentioned above.
-
-        Exemples
-        -------
-        Will be added in version 0.2
         """
 
         category_ratio_df = pd.DataFrame()
@@ -358,50 +356,98 @@ class NBcategorical(object):
         return category_ratio_df.transpose().style.applymap(color_imbalanced)
 
     # todo: debug
-    # @staticmethod
-    # @_InputCheckCategorical.label_encoder_features_checker
-    # def label_encoder_features(database, features_to_encode):
-    #     """
-    #     General Information
-    #     ----------
-    #     Encode features in the giving database using LabelEncoder() from sklearn.
-    #     Will preform encoding on all giving features and returns a dictionary with all the different
-    #     encoders where the ket is the feature name and the value is the LabelEncoder instance fitted
-    #     to that feature. Thus, the user is able to un-encode the feature when necessary.
-    #
-    #     Parameters
-    #     ----------
-    #     :param database: pandas Data Frame
-    #     First data set to check columns names from
-    #
-    #     :param features_to_encode: list or tuple of strings/int/float
-    #     The column names that the user wishes to encode.
-    #     All column names must be in the database and categorical/
-    #
-    #     :return:
-    #     returns a dictionary with all the different
-    #     encoders where the ket is the feature name and the value is the LabelEncoder instance fitted
-    #     to that feature. Thus, the user is able to un-encode the feature when necessary.
-    #
-    #     Raises
-    #     ------
-    #     ValueError : If input value not as mentioned above.
-    #
-    #     Exemples
-    #     -------
-    #     Will be added in version 0.2
-    #     """
-    #
-    #     label_encoder_dict = {}
-    #
-    #     for feat in features_to_encode:
-    #         le = LabelEncoder()
-    #
-    #         # fit the feature that we want to encode and tresform to numeric categories
-    #         database[feat] = le.fit_transform(database[feat])
-    #
-    #         print(f"for deature {feat} the categories are:\n", database[feat].value_counts().index)#todo:changeToConst
-    #
-    #         label_encoder_dict[feat] = le
-    #
-    #     return label_encoder_dict
+    @staticmethod
+    @_InputCheckCategorical._label_encoder_features_checker
+    def label_encoder_features(database, features_to_encode):
+        """
+        General Information
+        ----------
+        Encode features in the giving database using LabelEncoder() from sklearn.
+        Will preform encoding on all giving features and returns a dictionary with all the different
+        encoders where the ket is the feature name and the value is the LabelEncoder instance fitted
+        to that feature. Thus, the user is able to un-encode the feature when necessary.
+
+        Parameters
+        ----------
+        :param database: pandas Data Frame
+        First data set to check columns names from
+
+        :param features_to_encode: list or tuple of strings/int/float
+        The column names that the user wishes to encode.
+        All column names must be in the database and categorical/
+
+        :return:
+        returns a dictionary with all the different
+        encoders where the ket is the feature name and the value is the LabelEncoder instance fitted
+        to that feature. Thus, the user is able to un-encode the feature when necessary.
+
+        Raises
+        ------
+        ValueError : If input value not as mentioned above.
+        """
+
+        label_encoder_dict = {}
+
+        for feat in features_to_encode:
+            le = LabelEncoder()
+
+            # fit the feature that we want to encode and tresform to numeric categories
+            database[feat] = le.fit_transform(database[feat])
+
+            print(f"for feature {feat} the categories are:\n", database[feat].value_counts().index)
+
+            label_encoder_dict[feat] = le
+
+        return label_encoder_dict
+
+    @staticmethod
+    @_InputCheckCategorical._OHE_checker
+    def OHE(database, features_list=None):
+        """
+        General Information
+        ----------
+        Encode features in the giving database using get_dummies() from pandas.
+        Will preform one hot encoding on all giving features or if non were given will preform on all non-numeric
+        features in the database.
+        Will check with the user that agree to add num of features
+        Return the encoded database and the name of the original features that was encoded
+
+        Parameters
+        ----------
+        :param database: pandas Data Frame
+        First data set to check columns names from
+
+        :param features_list: list or tuple of strings/int/float
+        The column names that the user wishes to encode.
+        All column names must be in the database and categorical/
+
+        :return:
+        the encoded database and the name of the original features that was encoded
+
+        Raises
+        ------
+        ValueError : If input value not as mentioned above.
+        """
+        total_cat = 0
+        user_input = None
+        # check if one of the columns is numeric
+        if features_list and database[features_list]._get_numeric_data().columns.tolist():
+            return print("features list contains numeric features please check again")
+        # all the non-numeric column will be OHE
+        elif not features_list:
+            numeric_col = list(database._get_numeric_data().columns)
+            features_list = [col for col in database.columns if col not in numeric_col]
+
+        # Number of new features
+        for feat in features_list: total_cat += database[feat].nunique()
+        # Make sure that the user aware to the num of added features
+        while user_input != 'n' and user_input != 'y':
+            user_input = input(
+                f"By OHE you will add {total_cat - len(features_list)} "
+                f"features to the database. Do you wish to continue[y/n]:")
+        if user_input == 'n':
+            return database, features_list
+        else:
+            database = pd.get_dummies(database, columns=features_list)
+            return database, features_list
+

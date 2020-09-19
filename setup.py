@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setup(
     name='NBprocessing',
-    version='0.0.195',
+    version='1.0',
     author="Nir Barazida",
     description="Pre-processing database using pre-written functions",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/nirbarazida/NBprocessing",
     packages=find_packages(exclude=['*test*', 'main*','ignore_files*']),
-    install_requires=['pandas', 'numpy', 'matplotlib', 'seaborn','plotly'],
+    install_requires=['pandas', 'numpy', 'matplotlib', 'seaborn','plotly','scikit-learn'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

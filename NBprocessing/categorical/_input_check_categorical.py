@@ -108,7 +108,7 @@ class _InputCheckCategorical(object):
 
 
     @staticmethod
-    def label_encoder_features_checker(func):
+    def _label_encoder_features_checker(func):
         """
         Wrapper function to validate the input for method 'category_ratio'
         Will raise Exception if input incorrect
@@ -120,4 +120,20 @@ class _InputCheckCategorical(object):
             for column in features_to_encode:
                 _CheckInput._check_column_in_database(column,database)
             return func(database, features_to_encode)
+        return wrapper_checker
+
+    @staticmethod
+    def _OHE_checker(func):
+        """
+        Wrapper function to validate the input for method 'OHE'
+        Will raise Exception if input incorrect
+        """
+
+        @wraps(func)
+        def wrapper_checker(database, features_list=None):
+            _CheckInput._check_database_input(database)
+            if features_list:
+                for column in features_list:
+                    _CheckInput._check_column_in_database(column,database)
+            return func(database, features_list)
         return wrapper_checker

@@ -34,7 +34,8 @@ Run from your command line prompt:
     - `combine_categories(database, column_name, category_name="other", threshold=0.01)`
     - `categories_not_in_common(train, test, column_name)`
     - `category_ratio(database, columns_to_check=None, num_categories=5)`
-    - `def label_encoder_features(database, features_to_encode)` 
+    - `label_encoder_features(database, features_to_encode)`
+    - `OHE(database, features_list=None)` 
     
 - Continuous - contains functions that are relevant to continuous features:
 
@@ -46,6 +47,7 @@ Run from your command line prompt:
 - General - contains general functions:
 
     - `missing_values(database)`
+    - `split_and_check(database, column_name, test_size=0.3)`
     
 - Plot - contains plots functions:
 
@@ -63,10 +65,10 @@ Run from your command line prompt:
 
 ## Usage
 
-**All usage of the package functions are reviewed very specifically in this [jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/README_Notebook.ipynb)** 
+###All usage of the package functions are reviewed very specifically in this [jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/README_Notebook.ipynb) 
 
 
-## Usage Examples
+## Usage Basic Examples
 
 - Categorical:
     - **Fill missing values in a categorical feature by the ratio of the categories**:\

@@ -54,3 +54,8 @@ data["PLOT"] = {
                                 }
 
                }
+data["GENERAL"] = {
+                    "SPLIT_AND_CHECK": r"X_train shape: {}, y_train shape:"
+                                       r" {}, X_test shape: {}"
+                                       r", y_test shape: {}"
+                  }

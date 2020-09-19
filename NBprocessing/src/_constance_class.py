@@ -49,3 +49,6 @@ class Const(object):
         # plot
         self.NULL_HEAT_MAP_TITLE = data["PLOT"]["NBPLOT_CLASS"]["NULL_HEAT_MAP_TITLE"]
         self.FEATURE_CORR = data["PLOT"]["NBPLOT_CLASS"]["FEATURE_CORR"]
+
+        #general
+        self.SPLIT_AND_CHECK = data["GENERAL"]["SPLIT_AND_CHECK"]

@@ -92,11 +92,6 @@ class NBplot(object):
         Raises
         ------
         ValueError : If input value not as mentioned above.
-
-        Exemples
-        -------
-        Will be added in version 0.2
-
         """
 
         sns.set(font_scale=1.2)
@@ -135,10 +130,6 @@ class NBplot(object):
         Raises
         ------
         ValueError : If input value not as mentioned above.
-
-        Exemples
-        -------
-        Will be added in version 0.2
         """
 
         sns.set(font_scale=1)
@@ -176,11 +167,6 @@ class NBplot(object):
         Raises
         ------
         ValueError : If input value not as mentioned above.
-
-        Exemples
-        -------
-        Will be added in version 0.2
-
         """
 
         if not column_list:
@@ -222,10 +208,6 @@ class NBplot(object):
         Raises
         ------
         ValueError : If input value not as mentioned above.
-
-        Exemples
-        -------
-        Will be added in version 0.2
         """
 
         if not column_list:
@@ -274,10 +256,6 @@ class NBplot(object):
         Raises
         ------
         ValueError : If input value not as mentioned above.
-
-        Exemples
-        -------
-        Will be added in version 0.2
         """
 
         data = dict(type='choropleth',

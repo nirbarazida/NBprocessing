@@ -93,10 +93,6 @@ class NBcontinuous(object):
         ------
         ValueError : If input value not as mentioned above.
         ValueError : If the column type is not date-time
-
-        Exemples
-        -------
-        Will be added in version 0.2
         """
 
         start_date = database[column_name].max()
@@ -150,10 +146,6 @@ class NBcontinuous(object):
         Raises
         ------
         ValueError : If input value not as mentioned above.
-
-        Exemples
-        -------
-        Will be added in version 0.2
         """
         try:
             removed_outliers = database[column_name].between(database[column_name].quantile(bot_qu),
@@ -204,10 +196,6 @@ class NBcontinuous(object):
         Raises
         ------
         ValueError : If input value not as mentioned above.
-
-        Exemples
-        -------
-        Will be added in version 0.2
         """
         try:
             sum_row = 0
@@ -260,11 +248,6 @@ class NBcontinuous(object):
         Raises
         ------
         ValueError : If input value not as mentioned above.
-
-        Exemples
-        -------
-        Will be added in version 0.2
-
         """
 
         try:
