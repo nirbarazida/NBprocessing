@@ -6,7 +6,7 @@
 
 **The [Medium blog-post](https://medium.com/@nirbarazida/the-ultimate-python-package-to-pre-process-data-for-machin-learning-c87bcc39fa66)**
 
-##### The full package usage is elaborated in this [Jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/README_Notebook.ipynb)
+##### The full package usage is elaborated in this [Jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/NBprocessing%20Package%20-%20Showcase.ipynb)
 
 ### General
 
