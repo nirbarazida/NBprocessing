@@ -14,37 +14,37 @@ data['CHECK_INPUT'] = {
 }
 data["CATEGORICAL"] = {
 
-    'GENERAL_FUNCTIONS_CATEGORICAL': {"RED": "red", "BLACK": "black", "OUTPUT": R"color: {}"},
+    'GENERAL_FUNCTIONS_CATEGORICAL': {"RED": "red", "BLACK": "black", "OUTPUT": "color: {}"},
 
     "NBCATEGORICAL_CLASS": {
-        "REMOVE_CATEGORIES": {"USER_INPUT": r'Using remove_categories will result in deletion of {}\n'
-                                            r'Which is {} % of the database.\nDo you wish to continue? [y/n]',
-                              "DATABASE_SHAPE": r"the new database shape is{}"
+        "REMOVE_CATEGORIES": {"USER_INPUT": 'Using remove_categories will result in deletion of {}\n'
+                                            'Which is {} % of the database.\nDo you wish to continue? [y/n]',
+                              "DATABASE_SHAPE": "the new database shape is{}"
                               },
 
-        "CATEGORIES_NOT_IN_COMMON": {"FIRST": r"values existing only in the first data-set {}",
-                                     "SECOND": r"values existing only in the second data-set {}"
+        "CATEGORIES_NOT_IN_COMMON": {"FIRST": "values existing only in the first data-set {}",
+                                     "SECOND": "values existing only in the second data-set {}"
                                      }
         }
 }
 
 data["CONTINUOUS"] = {
-    "NBCONTINUOUS_CLASS": {"REMOVE_OUTLIERS_BY_BOUNDARIES": {"DROP_ROW": r"Do you wish to drop {} rows"
-                                                                         r" ({}% of the database)? [y/n]",
+    "NBCONTINUOUS_CLASS": {"REMOVE_OUTLIERS_BY_BOUNDARIES": {"DROP_ROW": "Do you wish to drop {} rows"
+                                                                         " ({}% of the database)? [y/n]",
                                                              "TYPE_ERROR": "Error - the column value type must be numeric"
                                                              },
                            "GET_NUM_OUTLIERS_BY_VALUE": {"OUTLIERS_ABOVE": "\nOutliers above:",
-                                                         "SUM_OUTLIERS_ABOVE": r"{}: {}",
+                                                         "SUM_OUTLIERS_ABOVE": "{}: {}",
                                                          "OUTLIERS_UNDER": "\nOutliers under:",
-                                                         "SUM_OUTLIERS_UNDER": r"{}: {}",
-                                                         "SUM_OUTLIERS_TOT": r"\nBy removing all {} rows we will lose"
-                                                                             r" {} % of the data",
+                                                         "SUM_OUTLIERS_UNDER": "{}: {}",
+                                                         "SUM_OUTLIERS_TOT": "\nBy removing all {} rows we will lose"
+                                                                             " {} % of the data",
                                                          "KEY_ERROR": "Error one or more of the column names is not in "
                                                                       "the data base. "
                                                          },
-                           "REMOVE_OUTLIERS_BY_VALUE": {"SHAPE_BEFORE": r"\nShape before removing outliers: {}",
-                                                        "SHAPE_AFTER": r"\nshape after removing outliers: {}",
-                                                        "DATA_LOST": r"\nDroped {} rows that are {} % of the database"
+                           "REMOVE_OUTLIERS_BY_VALUE": {"SHAPE_BEFORE": "\nShape before removing outliers: {}",
+                                                        "SHAPE_AFTER": "\nshape after removing outliers: {}",
+                                                        "DATA_LOST": "\nDroped {} rows that are {} % of the database"
                                                         },
                            }
 }
@@ -55,7 +55,7 @@ data["PLOT"] = {
 
                }
 data["GENERAL"] = {
-                    "SPLIT_AND_CHECK": r"X_train shape: {}, y_train shape:"
-                                       r" {}, X_test shape: {}"
-                                       r", y_test shape: {}"
+                    "SPLIT_AND_CHECK": "X_train shape: {}, y_train shape:"
+                                       " {}, X_test shape: {}"
+                                       ", y_test shape: {}"
                   }

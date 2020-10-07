@@ -1,9 +1,14 @@
 # NBprocessing 
 
-Pre-processing database using pre-written functions
+**Pre-processing database using pre-written functions**
 
 **Written by**: Nir Barazida
 
+**The [Medium blog-post](https://medium.com/@nirbarazida/the-ultimate-python-package-to-pre-process-data-for-machin-learning-c87bcc39fa66)**
+
+##### The full package usage is elaborated in this [Jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/README_Notebook.ipynb)
+
+### General
 
 How many times have you received raw database and conduct the same action to pre-process it?
  - Check for missing values and fill them if necessary.
