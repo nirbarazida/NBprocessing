@@ -6,9 +6,9 @@
 
 **The [Medium blog-post](https://medium.com/@nirbarazida/the-ultimate-python-package-to-pre-process-data-for-machin-learning-c87bcc39fa66)**
 
-##### The full package usage is elaborated in this [Jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/NBprocessing%20Package%20-%20Showcase.ipynb)
+**The full package usage is elaborated in this [Jupyter Notebook](https://github.com/nirbarazida/NBprocessing/blob/master/documentation/NBprocessing%20Package%20-%20Showcase.ipynb)**
 
-### General
+### Usage Incentives
 
 How many times have you received raw database and conduct the same action to pre-process it?
  - Check for missing values and fill them if necessary.
